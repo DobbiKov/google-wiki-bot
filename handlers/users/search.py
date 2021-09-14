@@ -21,3 +21,7 @@ async def start_search(message: types.Message, state: FSMContext):
     await state.update_data(search=message.text.lower())
 
     await message.reply("Где ищем?", reply_markup=start_inline())
+
+    
+
+

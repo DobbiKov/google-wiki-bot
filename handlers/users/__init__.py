@@ -1,6 +1,7 @@
 from . import help
 from . import start
 from . import echo
+from . import nick_search
 from . import search
 from .searches import google 
 from .searches import translate 
